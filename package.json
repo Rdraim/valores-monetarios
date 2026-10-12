@@ -1,6 +1,6 @@
 {
   "name": "valores-monetarios",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Decimais exatos em unidades inteiras e divisão sem perder centavos.",
   "type": "module",
   "main": "./src/index.js",
@@ -12,14 +12,19 @@
     "src",
     "*.md",
     "LICENSE",
-    "assets/support"
+    "assets/support",
+    "examples",
+    "test",
+    "test-types",
+    "tools"
   ],
   "scripts": {
     "test": "node --test",
     "example": "node examples/uso.mjs",
     "check:public": "node tools/check-public-content.mjs --history",
     "check": "node --check src/index.js",
-    "example:integration": "node examples/integracao.mjs"
+    "example:integration": "node examples/integracao.mjs",
+    "check:package": "node tools/check-package.mjs"
   },
   "engines": {
     "node": ">=22"

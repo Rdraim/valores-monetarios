@@ -1,0 +1,29 @@
+{
+  "name": "valores-monetarios",
+  "version": "1.0.0",
+  "description": "Decimais exatos em unidades inteiras e divisão sem perder centavos.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md",
+    "README.en-US.md",
+    "README.es-AR.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/uso.mjs",
+    "check:public": "node tools/check-public-content.mjs --history"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "Rodrigo Rodrigues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rdraim/valores-monetarios.git"
+  }
+}

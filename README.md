@@ -80,7 +80,7 @@ Para repetir a verificação, use o TypeScript instalado no seu ambiente:
 tsc --noEmit --strict --target ES2022 --module NodeNext --moduleResolution NodeNext test-types/consumer.mts
 ```
 
-## Nova versão — 1.1.0
+## Nova versão — 1.1.1
 
 Acrescenta declarações TypeScript, receitas de transporte e documentação; mantém operações exatas sem arredondamento implícito.
 

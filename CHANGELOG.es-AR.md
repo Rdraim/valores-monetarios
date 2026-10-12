@@ -6,6 +6,10 @@
 
 # Historial
 
+## 1.1.1 — 2026-10-12
+
+Corrige la inclusión de ejemplos y archivos de verificación referenciados por los documentos; agrega chequeo de empaquetado al CI. Sin cambios de ejecución.
+
 ## 1.1.0 — 2026-10-12
 
 Agrega declaraciones TypeScript, recetas de transporte y documentación; conserva operaciones exactas sin redondeo implícito.
